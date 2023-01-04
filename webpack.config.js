@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const DotenvPlugin = require('dotenv-webpack');
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 
 const deps = require("./package.json").dependencies;
@@ -40,6 +41,9 @@ module.exports = {
   },
 
   plugins: [
+    new DotenvPlugin({
+      systemvars: true,
+    }),
     new ModuleFederationPlugin({
       name: "content_example",
       filename: "remoteEntry.js",
