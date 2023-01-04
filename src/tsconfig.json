@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "incremental": true,
+        "lib": [
+            "es5",
+            "es6",
+            "es2018",
+            "dom"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "incremental": true,
+        "jsx": "react-jsx",
+        "lib": [
+            "es5",
+            "es6",
+            "es2018",
+            "dom"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noEmit": false,
+        "sourceMap": true,
+        "target": "es6"
+    }
+}
