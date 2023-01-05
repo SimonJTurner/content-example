@@ -2,9 +2,9 @@ import { createContext, useCallback, useState } from "react";
 import { getContentEntry, getEntriesByType } from "./content-service";
 
 export enum LanguagesEnum {
-    EnglishUS = 'en-us',
+    EnglishUS = 'en-US',
     EnglishGB = 'en-gb',
-    SpanishMX = 'es-mx',
+    SpanishMX = 'es',
     FrenchFrance = 'fr-fr',
     SpanishSpain = 'es-es'
 }
